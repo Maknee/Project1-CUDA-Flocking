@@ -3,7 +3,7 @@ Project 1 - Flocking**
 
 ## 1000 boids and 10000 boids with coherence
 
-![](coherent_gif.gif)
+![](coherent_1000.gif)
 
 ![](coherent_10000.gif)
 
@@ -37,7 +37,11 @@ I did notice a performance boost, which is caused by cache hits in the GPU.
 
 When changing the block count/block size to be more, this impacts performance by making the non-naive implementation has to iterate through more boids. This does not impact the naive implementation as it iterates through all the boids anyways.
 
-## Performance Analysis
+## Performance Analysis (FPS)
+
+![](performance.png)
+
+## Performance Analysis (From NSight)
 
 ### 2000 boids vs 20000 boids (visualized)
 
