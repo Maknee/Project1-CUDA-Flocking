@@ -46,7 +46,7 @@ set(CORELIBS
     )
 
 # Enable C++11 for host code
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 # Enable CUDA debug info in debug mode builds
 list(APPEND CUDA_NVCC_FLAGS_DEBUG -G -g)
